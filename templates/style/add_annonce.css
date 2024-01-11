@@ -1,0 +1,56 @@
+main{
+    margin-left: 25em;
+    padding-top: 100px;
+}
+
+input[type='submit']{
+    margin-top: 1em;
+    background-color: #72A603;
+    border: none;
+    border-radius: 50px;
+    display: inline-block;
+    padding: 8px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+textarea, select, input[type='number'], input[type='date'] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type='date']{
+    font-size: 18px;
+}
+
+label{
+    display: block;
+}
+
+#error{
+    color: #D93D04;
+}
+
+.error{
+    color: #D93D04;
+    border-color: #D93D04;
+}
+
+.Add{
+    margin: 20px 0;
+}
+
+#added{
+    margin: 20px 0;
+}
+
+.label_added{
+    margin-top: 20px;
+    font-weight: bold;
+}

@@ -1,0 +1,23 @@
+#file-input{
+    display: none;
+}
+.image-upload{
+    position: relative;
+    width: 100px;
+    height: 100px;
+}
+.image-upload img{
+    width: 100%;
+    height: auto;
+}
+#icon_addpictures-profil{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 35px;
+}
+#icon_addpictures-profil:hover{
+    cursor: pointer;
+    width: 40px;
+}

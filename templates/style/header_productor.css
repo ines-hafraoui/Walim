@@ -1,0 +1,25 @@
+#header-productor{
+    background-color: #D93D04;
+    height: 100vh;
+    width: 20em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+}
+.icon-header-productor{
+    margin: 1.75em 0em;
+}
+.icon-header-productor a{
+    display: flex;
+    align-items: center;
+}
+.icon-header-productor a img{
+    padding-right: 1em;
+    width: 30px;
+    height: auto;
+}
+
+.profile{
+    padding: 20px 0;
+}

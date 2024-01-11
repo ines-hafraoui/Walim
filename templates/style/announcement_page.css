@@ -1,0 +1,78 @@
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profil {
+    display: grid;
+    grid-template-columns: 0.5fr 2fr 1fr;
+    gap: 1rem;
+    margin: 3em;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloc {
+    min-width: 300px;
+    width: calc(50% - 200px);
+    height: 227px;
+    background: #FFFFFF;
+    border-radius: 30px;
+    margin: 10px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+h4 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profil img {
+    width: 150px;
+    height: 150px;
+}
+
+input[type = submit] {
+    background-color: #F38E35;
+    border: none;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0;
+    border-radius: 100px;
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    font-weight: bolder;
+}
+
+input[type = submit]:hover {
+    background-color: #7CC578;
+}
+
+input[type = submit]:active {
+    background-color: #7CC578;
+}
+
+
+.reserv{
+    margin-left: 3vw;
+}

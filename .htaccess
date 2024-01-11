@@ -1,0 +1,13 @@
+RewriteEngine on
+
+# le .htaccess est à la racine (/) du site adapter le chiemin si besoin. 
+rewriteBase  / 
+
+# on ne réécrit que si la ressource demandée 
+# n'est pas un fichier
+ RewriteCond "%{REQUEST_FILENAME}" !-f
+# ni un répertoire
+ RewriteCond "%{REQUEST_FILENAME}" !-d
+
+
+rewriteRule "^(.*)$" "index.php?action=$1" [L,PT,QSA]
